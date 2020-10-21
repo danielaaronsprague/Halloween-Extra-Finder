@@ -1,10 +1,13 @@
 import React from "react";
-import { Header, Home, Extra } from "./components";
+import { Header } from "./components";
 import blood from "./assets/blood.png";
+import { useRoutes } from "hookrouter";
+import routes from "./router";
 import "./App.css";
 import "./App.scss";
 
 const App = () => {
+  const routeResult = useRoutes(routes);
   return (
     <div className='App'>
       <img
@@ -19,7 +22,7 @@ const App = () => {
         alt='logo'
       />
       <Header />
-      <Home />
+      {routeResult || <h1>Page Not Found</h1>}
     </div>
   );
 };

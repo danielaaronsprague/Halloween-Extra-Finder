@@ -49,7 +49,7 @@ export const Extra = () => {
       <img
         src={props.results[0].picture.large}
         className='extra-image'
-        alt='extra profile photo'
+        alt='halloween extra actor'
       />
     </div>
   );

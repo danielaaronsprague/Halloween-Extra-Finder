@@ -1,10 +1,9 @@
 import React from "react";
+import { Extra } from "./Extra";
 
 export const Extras = () => {
   return (
-    <div>
-      <Extra />
-      <Extra />
+    <div className='App-content'>
       <Extra />
     </div>
   );

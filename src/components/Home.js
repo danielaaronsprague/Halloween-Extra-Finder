@@ -1,4 +1,5 @@
 import React from "react";
+import { A } from "hookrouter";
 
 export const Home = () => {
   return (
@@ -34,9 +35,12 @@ export const Home = () => {
         <span aria-hidden='true'>!</span>
         <span aria-hidden='true'>?</span>
       </h1>
-
-      <button id='button-no'>N O</button>
-      <button id='button-yes'>Y E S</button>
+      <A href='/'>
+        <button id='button-no'>N O</button>
+      </A>
+      <A href='/extras'>
+        <button id='button-yes'>Y E S</button>
+      </A>
     </div>
   );
 };
