@@ -10,8 +10,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-size: min(6vw, 2em, 2rem);
+}
+
 p {
   overflow-wrap: break-word;
+}
+
+button {
+  background: #650201;
+  color: white;
+  font-weight: 800;
+  border-radius: 30px;
+  border-width: 0px;
+  width: 30vw;
+  height: 8vh;
+  margin: 20px;
+  box-shadow: 6px 6px 2px 1px #ffa135;
+  font-size: min(4vw, 4vw, 4vw);
+}
+button:focus {
+  outline: 0;
+}
+
+#button-no:hover,
+#button-no:focus,
+#button-no:active {
+  outline: 0;
+  color: white;
+  background-color: white;
+  box-shadow: none;
+}
+#button-yes:hover,
+#button-yes:focus,
+#button-yes:active {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 code {

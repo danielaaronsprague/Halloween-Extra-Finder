@@ -1,22 +1,25 @@
 import React from "react";
-import logo from "./logo.svg";
+import { Header, Home, Extra } from "./components";
+import blood from "./assets/blood.png";
 import "./App.css";
+import "./App.scss";
 
 const App = () => {
   return (
     <div className='App'>
-      <div className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <h3>Halloween Movie Extra Finder</h3>
-      </div>
-      <div className='App-content'>
-        <p>
-          j;ljkad;lkjasdf ;lkjaf;lkjsdf ;lkjasd;flkjasd;flkjas;dflkjasd;flkj
-          asdf;lkj asdf;lkjasdf;lkjasdf;lkj asdf;lkjas
-          df;lkjasdf;lkjasd;flkjasd;flkjasd;f lkjasdf;lkjasdf;lkj asdf;lkaj
-          df;lkjasdf;l kasdf;l kjasdf;lkjasdf;lkjasd;jkl
-        </p>
-      </div>
+      <img
+        src={blood}
+        style={{
+          width: "150px",
+          position: "fixed",
+          top: "22px",
+          right: "-75px",
+        }}
+        className='blood-logo'
+        alt='logo'
+      />
+      <Header />
+      <Home />
     </div>
   );
 };
