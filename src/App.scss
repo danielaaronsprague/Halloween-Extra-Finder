@@ -57,6 +57,7 @@
 }
 
 h1 {
+  // font-size: 65px;
   text-transform: uppercase;
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
@@ -69,5 +70,5 @@ h1 {
   white-space: nowrap;
   margin: 10rem auto;
   margin: calc(10vh - 5rem) auto;
-  font-size: max(8vw, 8vw, 8vw);
+  font-size: min(7vw, 7vw, 7vw);
 }

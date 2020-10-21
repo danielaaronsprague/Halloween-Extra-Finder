@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: min(6vw, 2em, 2rem);
+  /* font-size: min(6vw, 2em, 2rem); */
 }
 
 p {
