@@ -10,8 +10,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  /* font-size: min(6vw, 2em, 2rem); */
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 p {
@@ -32,22 +38,6 @@ button {
 }
 button:focus {
   outline: 0;
-}
-
-#button-no:hover,
-#button-no:focus,
-#button-no:active {
-  outline: 0;
-  color: white;
-  background-color: white;
-  box-shadow: none;
-}
-#button-yes:hover,
-#button-yes:focus,
-#button-yes:active {
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  transform: scale(0.95);
 }
 
 code {

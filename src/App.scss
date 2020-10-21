@@ -1,3 +1,5 @@
+// I definitely didn't come up with this super cool SASS animations but I thought it was neat and I wanted to play around with it and also show that I could implement some scss files as well as the regular css files. I am quite new to css/sass animations and wanted to be sure that I wasn't taking credit for this cool text animation!
+
 @function textShadow($precision, $size, $color) {
   $value: null;
   $offset: 0;
@@ -57,12 +59,10 @@
 }
 
 h1 {
-  // font-size: 65px;
   text-transform: uppercase;
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
   display: block;
-  // width: 666px;
   max-width: 85vw;
   min-height: 90px;
   height: auto;
