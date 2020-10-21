@@ -1,9 +1,11 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 6vmin;
   pointer-events: none;
 }
 
@@ -14,14 +16,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  background-color: #282c34;
+  height: 60px;
+  width: 100vw;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  /* font-size: calc(10px + 2vmin); */
   color: white;
+}
+
+.App-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  align-items: center;
+  margin-top: 60px;
 }
 
 .App-link {
