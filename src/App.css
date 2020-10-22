@@ -79,6 +79,26 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
+.extra-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.modal-items {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.line-item {
+  display: flex;
+  flex-direction: row;
+}
+
 .extra-header {
   margin-left: 10px;
   margin-right: 10px;
@@ -112,7 +132,7 @@
 }
 
 .button-no:hover p:after {
-  content: "B O O ! ! !";
+  content: "👻 B O O ! ! !";
 }
 
 #button-yes:hover,

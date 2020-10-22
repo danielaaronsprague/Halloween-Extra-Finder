@@ -17,6 +17,7 @@ const App = () => {
           position: "fixed",
           top: "22px",
           right: "-75px",
+          zIndex: "13",
         }}
         className='blood-logo'
         alt='logo'
