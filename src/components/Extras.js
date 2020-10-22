@@ -22,17 +22,15 @@ export const Extras = () => {
 
   return (
     <div className='App-content'>
-      <Extra />
-      {extras.length > 0
-        ? extras.map((item) => (
-            <img
-              key={item.login.uuid}
-              src={item.picture.large}
-              className='extra-image'
-              alt='halloween extra actor'
-            />
-          ))
-        : null}
+      <h1 className='extra-header'> Extra Finder!</h1>
+      <h3 className='extra-header'>
+        Here you will find a host of aspiring actors waiting for your call!
+      </h3>
+      <ul className='extra-container'>
+        {extras.length > 0
+          ? extras.map((item) => <Extra key={item.login.uuid} info={item} />)
+          : null}
+      </ul>
     </div>
   );
 };

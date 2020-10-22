@@ -36,8 +36,18 @@ button {
   box-shadow: 6px 6px 2px 1px #ffa135;
   font-size: min(4vw, 4vw, 4vw);
 }
-button:focus {
+button:focus,
+button:hover,
+button:active {
   outline: 0;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
 code {

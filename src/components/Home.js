@@ -35,8 +35,12 @@ export const Home = () => {
         <span aria-hidden='true'>!</span>
         <span aria-hidden='true'>?</span>
       </h1>
-      <A href='/'>
-        <button id='button-no'>N O</button>
+      <A className='button-no' href='/'>
+        <button className='button-no'>
+          <p className='button-no'>
+            <span className='button-no'>N O</span>
+          </p>
+        </button>
       </A>
       <A href='/extras'>
         <button id='button-yes'>Y E S</button>
