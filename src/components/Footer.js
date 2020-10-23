@@ -13,7 +13,7 @@ export const Footer = () => {
         <svg
           stroke='currentColor'
           fill='currentColor'
-          stroke-width='0'
+          strokeWidth='0'
           viewBox='0 0 496 512'
           type='mobile'
           height='100%'

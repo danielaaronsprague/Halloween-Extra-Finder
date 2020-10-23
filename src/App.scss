@@ -63,11 +63,11 @@ h1 {
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
   display: block;
-  max-width: 85vw;
   height: auto;
   text-align: center;
   white-space: nowrap;
   margin: 10rem auto;
   margin: calc(10vh - 5rem) auto;
-  font-size: min(7vw, 7vw, 7vw);
+  font-size: min(6vh, 7vh, 7vh);
+  // font-size: min(4vw, 7vw, 7vw);
 }

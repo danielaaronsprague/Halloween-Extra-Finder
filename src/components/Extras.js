@@ -22,7 +22,7 @@ export const Extras = () => {
 
   return (
     <div className='App-content'>
-      <h1 className='extra-header'> Extra Finder!</h1>
+      <h2 className='extra-header'> Extra Finder!</h2>
       <h3 className='extra-header'>
         Here you will find a host of aspiring actors waiting for your call!
       </h3>

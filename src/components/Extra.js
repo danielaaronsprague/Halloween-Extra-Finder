@@ -3,6 +3,8 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
+    display: "flex",
+    flexDirection: "column",
     padding: "10px",
     top: "40%",
     left: "40%",
@@ -10,7 +12,12 @@ const customStyles = {
     bottom: "9%",
     marginRight: "-40%",
     transform: "translate(-33.5%, -40%)",
+    minWidth: "340px",
+    minHeight: "300px",
     zIndex: "113",
+    overflowX: "hidden",
+    alignItems: "center",
+    justifyContent: "center",
   },
 };
 
@@ -44,11 +51,13 @@ export const Extra = (props) => {
         contentLabel='Example Modal'
       >
         <div className='extra-div'>
-          <img
-            src={picture.large}
-            className='extra-image'
-            alt='halloween extra actor'
-          />
+          <div>
+            <img
+              src={picture.large}
+              className='extra-image'
+              alt='halloween extra actor'
+            />
+          </div>
           <div className='modal-items'>
             <div className='line-item'>
               <h4 className='extra-header'>Name:</h4>

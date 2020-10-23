@@ -28,13 +28,14 @@ button {
   background: #650201;
   color: white;
   font-weight: 800;
-  border-radius: 30px;
+  border-radius: 4px;
   border-width: 0px;
-  width: 30vw;
-  height: 8vh;
-  margin: 20px;
+  margin: 10px;
+  padding: 10px;
   box-shadow: 6px 6px 2px 1px #ffa135;
-  font-size: min(4vw, 4vw, 4vw);
+  font-size: 16pt;
+  width: 150px;
+  height: 60px;
 }
 button:focus,
 button:hover,
@@ -48,6 +49,10 @@ h2,
 h3,
 h4 {
   margin: 0;
+}
+
+h2 {
+  font-size: 40pt;
 }
 
 code {
