@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "./components";
+import { Header, Footer } from "./components";
 import blood from "./assets/blood.png";
 import { useRoutes } from "hookrouter";
 import routes from "./router";
@@ -24,6 +24,7 @@ const App = () => {
       />
       <Header />
       {routeResult || <h1>Page Not Found</h1>}
+      <Footer />
     </div>
   );
 };
